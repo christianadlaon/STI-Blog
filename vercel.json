@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/sti-mini-blog/index.html"
+    },
+    {
+      "source": "/index.html",
+      "destination": "/sti-mini-blog/index.html"
+    },
+    {
+      "source": "/styles.css",
+      "destination": "/sti-mini-blog/styles.css"
+    },
+    {
+      "source": "/script.js",
+      "destination": "/sti-mini-blog/script.js"
+    },
+    {
+      "source": "/assets/(.*)",
+      "destination": "/sti-mini-blog/assets/$1"
+    }
+  ]
+}
